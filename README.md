@@ -1,51 +1,82 @@
-# Welcome to your Expo app 👋
+# Movie Pulse 🎬
+<p align="center">
+   <img src="./assets/images/mockup.png" alt="Movie Pulse Logo" width="400" />
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+**Movie Pulse** is a modern mobile app that lets users discover, search, and explore trending and popular movies. Built with React Native and Expo, it provides a visually appealing and intuitive interface for movie lovers to browse details, view trending titles, and keep track of their favorites.
 
-1. Install dependencies
+---
 
+## Features
+
+- 🔍 **Search Movies:** Instantly search for movies by title and view detailed results.
+- 📈 **Trending Movies:** See what’s popular right now, powered by real user search data.
+- 📝 **Movie Details:** View comprehensive information including poster, title, release year, runtime, rating, genres, budget, revenue, and production companies.
+- ⭐ **Save Favorites:** (Planned) Save your favorite movies for quick access.
+- 🎨 **Modern UI:** Clean, responsive design with custom icons and images.
+- ⚡ **Fast & Responsive:** Built with performance and smooth navigation in mind.
+
+---
+
+## Tech Stack
+
+- **React Native** (with Expo)
+- **TypeScript**
+- **Expo Router** (for navigation)
+- **NativeWind** (Tailwind CSS for React Native)
+- **Appwrite** (for backend data and trending analytics)
+- **TMDB API** (for movie data)
+
+---
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/movie-pulse-app.git
+   cd movie-pulse-app
+   ```
+
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env` and fill in your TMDB and Appwrite credentials.
 
+4. **Start the app:**
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Folder Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+app/            # App screens and navigation
+components/     # Reusable UI components
+constants/      # Images, icons, and static data
+services/       # API and backend services
+interfaces/     # TypeScript interfaces
+types/          # Type definitions
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## Acknowledgements
 
-Join our community of developers creating universal apps.
+- [TMDB](https://www.themoviedb.org/) for movie data API
+- [Appwrite](https://appwrite.io/) for backend services
+- [Expo](https://expo.dev/) for the React Native platform
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Movie-Pulse-App
+---
